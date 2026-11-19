@@ -1,0 +1,34 @@
+output "arn" {
+  value       = aws_iam_service_linked_role.this.arn
+  description = "Amazon Resource Name (ARN) specifying the role."
+}
+
+output "create_date" {
+  value       = aws_iam_service_linked_role.this.create_date
+  description = "Creation date of the IAM role."
+}
+
+output "id" {
+  value       = aws_iam_service_linked_role.this.id
+  description = "The Amazon Resource Name (ARN) of the role."
+}
+
+output "name" {
+  value       = aws_iam_service_linked_role.this.name
+  description = "Name of the role."
+}
+
+output "path" {
+  value       = aws_iam_service_linked_role.this.path
+  description = "Path of the role."
+}
+
+output "tags_all" {
+  value       = aws_iam_service_linked_role.this.tags_all
+  description = "A map of tags assigned to the resource, including those inherited from the provider default_tags configuration block."
+}
+
+output "unique_id" {
+  value       = aws_iam_service_linked_role.this.unique_id
+  description = "Stable and unique string identifying the role."
+}
